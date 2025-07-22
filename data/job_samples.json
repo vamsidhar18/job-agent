@@ -1,0 +1,83 @@
+{
+  "test_jobs": [
+    {
+      "id": "tesla_backend",
+      "title": "Software Engineer I",
+      "company": "Tesla",
+      "description": "We are looking for a backend developer with experience in Python, AWS, and microservices. H1B candidates welcome.",
+      "expected_sponsorship": "high",
+      "notes": "Explicitly mentions H1B welcome"
+    },
+    {
+      "id": "startup_frontend",
+      "title": "Frontend Developer",
+      "company": "Startup Inc",
+      "description": "React, TypeScript, modern frontend development. Remote friendly. Early stage startup looking for passionate developers.",
+      "expected_sponsorship": "low",
+      "notes": "Small company, less likely to sponsor"
+    },
+    {
+      "id": "faang_senior",
+      "title": "Senior Software Engineer",
+      "company": "Meta",
+      "description": "Join our infrastructure team building scalable systems. 5+ years experience with distributed systems, Kubernetes, Go. Strong visa sponsorship program.",
+      "expected_sponsorship": "high",
+      "notes": "FAANG company with explicit sponsorship mention"
+    },
+    {
+      "id": "consulting_ambiguous",
+      "title": "Software Consultant", 
+      "company": "Accenture",
+      "description": "Client-facing role requiring excellent communication skills. Travel required 50%. No remote work. US citizens only.",
+      "expected_sponsorship": "none",
+      "notes": "Explicitly excludes non-citizens"
+    },
+    {
+      "id": "ai_specialist",
+      "title": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "description": "Build and deploy LLMs at scale. PhD preferred. Experience with PyTorch, distributed training, and model optimization. International candidates encouraged.",
+      "expected_sponsorship": "high", 
+      "notes": "Hot company, encourages international candidates"
+    },
+    {
+      "id": "government_contractor",
+      "title": "Software Developer",
+      "company": "Lockheed Martin",
+      "description": "Develop defense software systems. Security clearance required. Must be US citizen.",
+      "expected_sponsorship": "none",
+      "notes": "Government contractor requiring citizenship"
+    },
+    {
+      "id": "minimal_info",
+      "title": "Developer",
+      "company": "TechCorp",
+      "description": "We need a developer.",
+      "expected_sponsorship": "unknown",
+      "notes": "Very little information to work with"
+    }
+  ],
+  "edge_cases": [
+    {
+      "id": "missing_title",
+      "company": "Test Company",
+      "description": "Test job with missing title field."
+    },
+    {
+      "id": "missing_company", 
+      "title": "Test Engineer",
+      "description": "Test job with missing company field."
+    },
+    {
+      "id": "missing_description",
+      "title": "Test Engineer",
+      "company": "Test Company"
+    },
+    {
+      "id": "empty_fields",
+      "title": "",
+      "company": "",
+      "description": ""
+    }
+  ]
+}

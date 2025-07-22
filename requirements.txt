@@ -1,0 +1,11 @@
+langchain
+langchain-openai
+langchain-anthropic
+openai
+anthropic
+python-dotenv
+fastapi
+uvicorn
+playwright
+pandas
+pydantic
